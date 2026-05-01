@@ -1,0 +1,8 @@
+opencv-python
+numpy
+onnxruntime
+tqdm
+huggingface_hub
+ultralytics
+onnx
+onnxsim
