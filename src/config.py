@@ -9,7 +9,7 @@ class Config:
     input_video_path: str = "input/test_video.mp4"
     output_video_path: str = "output/result_part_a.mp4"
 
-    yolo_input_size: int = 320 #640
+    yolo_input_size: int = 448 #640
     conf_thres: float = 0.25
     iou_thres: float = 0.45
 
@@ -27,4 +27,4 @@ class Config:
 
     # 1 = chạy mọi frame.
     # 2 hoặc 3 = nhanh hơn nhưng ít smooth hơn.
-    frame_skip: int = 5
+    frame_skip: int = 2

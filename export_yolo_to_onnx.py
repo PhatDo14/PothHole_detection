@@ -2,11 +2,11 @@ import os
 import shutil
 from ultralytics import YOLO
 
-model = YOLO("models/best.pt")
+model = YOLO("models/best_finetune_200epochs.pt")
 
 exported_path = model.export(
     format="onnx",
-    imgsz=320,
+    imgsz=448,
     opset=12,
     simplify=False,
     dynamic=False,
