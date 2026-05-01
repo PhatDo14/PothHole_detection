@@ -1,0 +1,22 @@
+===== PART B METRICS =====
+
+[Runtime]
+Total frames        : 692
+Average FPS         : 27.45
+Min FPS             : 1.70
+Max FPS             : 38.46
+
+[GPS State Distribution]
+GPS_GOOD frames     : 374
+GPS_DEGRADED frames : 250
+GPS_LOST frames     : 68
+
+[Events]
+U-turn events       : 0
+
+[Lane Distribution]
+unstructured_road   : 669
+left_or_center      : 23
+
+[Notes]
+This Part B implementation is a prototype for GPS-degraded visual localization. It demonstrates GPS integrity monitoring, state-machine handover, visual odometry, lane detection, landmark database, and EKF-inspired pose fusion.
